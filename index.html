@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1{
+
+        } */
+        .buttens{
+            
+            border: 2px solid black;
+            height: 30vh;
+            width: 30wh;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>counter</h1>
+    <div class="buttens">
+        <h1 id="count">0</h1>
+        <button id="incre">increment</button>
+        <button id="decre">decrement</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        /* Centering content */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container for buttons */
+        .buttons {
+            border: 2px solid black;
+            height: 50vh;
+            width: 50vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 600px) {
+            .buttons {
+                width: 80vw;
+                height: 40vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="buttons">
+        <h1>Counter</h1>
+        <h1 id="count">0</h1>
+        <button id="incre">Increment</button>
+        <button id="decre">Decrement</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
